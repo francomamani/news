@@ -1,0 +1,31 @@
+[
+  {
+    "news_id": 1,
+    "author": "Noelia Abril",
+    "content": "que buen meme xD",
+    "avatar": "assets/girl.png"
+  },
+  {
+    "news_id": 2,
+    "author": "Franco (Mr. Gota :D)",
+    "content": "Yeayyyy!!!! que vivan las gotas! ^_^",
+    "avatar": "assets/person.png"
+  },
+  {
+    "news_id": 2,
+    "author": "Franco Mamani Pozo",
+    "content": "nice"
+  },
+  {
+    "news_id": 1,
+    "author": "Noelia Abril",
+    "content": "Mr ahora quien podra ayudarnos?",
+    "avatar": "assets/girl.png"
+  },
+  {
+    "news_id": 1,
+    "author": "Noelia Abril (Kitty Woman)",
+    "content": "yope!",
+    "avatar": "assets/girl.png"
+  }
+]

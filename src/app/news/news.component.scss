@@ -1,0 +1,122 @@
+.news-card {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  width: 450px;
+  padding: 1em;
+  box-shadow: 2px 2px 5px lightgrey;
+  margin: 1em auto;
+  border-radius: 3px;
+
+  .news-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: right;
+    padding-bottom: 1em;
+  }
+
+  .news-author {
+    font-size: 0.8em;
+    font-style: italic;
+    padding-bottom: 0.3em;
+  }
+
+  .news-date {
+    padding-bottom: 0.3em;
+    font-size: 0.6em;
+  }
+
+  .news-content {
+    box-sizing: border-box;
+    text-align: justify;
+    color: #484848;
+    height: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: 0.5s linear;
+    padding-bottom: 40px;
+    padding-right: 5px;
+
+    &:hover {
+      overflow: auto;
+    }
+  }
+
+  .comment-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .comment-avatar {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .comment-bubble {
+      box-sizing: border-box;
+      width: calc(100% - 72px - 4px);
+      background-color: #EAF1F1;
+      border-radius: 5px;
+      padding: 10px;
+      margin: 15px 0;
+      border: 0.5px solid #B3B3B3;
+
+      &.girl {
+        background-color: #ffc18d;
+      }
+
+      .comment-author {
+        font-weight: bold;
+        color: #4B4B4B;
+        font-size: 0.8em;
+        padding-bottom: 5px;
+
+        &:hover {
+          text-decoration: underline;
+          color: black;
+          text-decoration-color: gray;
+
+        }
+      }
+
+      .comment-content {
+        font-size: 0.7em;
+      }
+    }
+  }
+}
+
+
+.text-right {
+  text-align: right;
+}
+
+.toggle-comments {
+  display: block;
+  padding: 1em 0;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: underline;
+}
+form {
+  .comment {
+    width: 100%;
+    border-radius: 5px;
+    background-color: gray;
+    border: none;
+    padding: 0.5em;
+    box-sizing: border-box;
+    outline: none;
+    color: white;
+  }
+  button.send {
+    opacity: 0;
+  }
+}
